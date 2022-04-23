@@ -1,0 +1,43 @@
+
+.add-form-container{
+    background-color: rgb(5, 64, 75);
+    margin: 30px 0 ;
+    border-radius: 15px;
+    text-align: left;
+    position: relative;
+    min-width: 500px;
+}
+
+.add-form-container > form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.add-form-container > form > label{
+    height: 2rem;
+    margin: 20px 0 0px 20px;
+}
+.add-form-container > form > input{
+    height: 2rem;
+    margin: 0 20px;
+}
+.add-form-container > form > button{
+    margin: 20px;
+    height: 30px;
+    width: 120px;
+}
+
+.add-form-container > button{
+    margin: 20px;
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+
+
+

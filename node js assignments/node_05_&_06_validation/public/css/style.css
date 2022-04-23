@@ -1,0 +1,23 @@
+/* navBar */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav > ul > li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    
+}
+.active{
+    color: orange;
+}
+

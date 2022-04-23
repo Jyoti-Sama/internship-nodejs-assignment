@@ -1,0 +1,18 @@
+<%- include('components/head.ejs') %> 
+<body>
+    <%- include('components/navBar.ejs') %> 
+
+    <%- include('components/errorController.ejs') %> 
+    
+    <form action="/login" method="post" novalidate>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="password">password</label>
+        <input type="text" name="password" id="password">
+
+        <button type="submit">login</button>
+    </form>
+    
+</body>
+</html>

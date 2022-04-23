@@ -1,0 +1,28 @@
+<nav>
+    <ul>
+        <li>
+            <a href="/" class="<%= pageUrl === "/"? "active" : null %>">Home</a>
+        </li>
+
+        <% if (isAuthenticated) { %>
+            <li>
+                <a href="/admin" class="<%= pageUrl === "/admin"? "active" : null %>">Admin</a>
+            </li>
+
+            <li>
+                <a href="/logout" >Logout</a>
+            </li>
+        <% } %>
+
+        <% if (!isAuthenticated) { %>
+        <li>
+            <a href="/login" class="<%= pageUrl === "/login"? "active" : null %>">Login</a>
+        </li>
+        
+        <li>
+            <a href="/register" class="<%= pageUrl === "/register"? "active" : null %>">Register</a>
+        </li>
+        <% } %>
+
+    </ul>
+</nav>
